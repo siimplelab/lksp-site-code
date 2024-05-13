@@ -1,31 +1,109 @@
 ---
 pageTitle: "siimple.liink.space"
 ---
-  <%- include('./_includes/head') %>
+<%- include('./_includes/head') %>
   <main id="main">
-    <header id="header" class="container mx-auto">
+    <header id="header" class="container mx-auto mt-4 p-4 pb-2">
       <h1 id="pageTitle" class="font-bold text-xl">
         <a href="./pages/main"><%- pageTitle %></a>
       </h1>
       <a href="#" id="profile"></a>
     </header>
-    <div id="mainContent">
-      <ul id="link-items" class="container mx-auto">
+    <div id="mainContent" class="p-4">
+      <ul id="link-items" class="link-item-group container mx-auto">
+
         <li class="link-item">
-          <a href="https://calendar.google.com">
+          <a target="_blank" href="https://calendar.google.com">
             <div class="link-item-title">
               Google Calendar
             </div>
             <div class="link-item-description">
-              <div>Calendar</div>
+              <div class="link-item-tag">Calendar</div>
               <small>https://calendar.google.com</small>
             </div>
           </a>
         </li>
-        
+
+        <li class="link-item">
+          <a target="_blank" href="https://www.midjourney.com/">
+            <div class="link-item-title">
+              Midjourney
+            </div>
+            <div class="link-item-description">
+              <div class="link-item-tag">AI Design</div>
+              <small>https://www.midjourney.com/</small>
+            </div>
+          </a>
+        </li>
+
+        <li class="link-item">
+          <a target="_blank" href="https://stability.ai">
+            <div class="link-item-title">
+              Stable Diffusion
+            </div>
+            <div class="link-item-description">
+              <div class="link-item-tag">AI Design</div>
+              <small> https://stability.ai
+              </small>
+            </div>
+          </a>
+        </li>
+
+        <li class="link-item">
+          <a target="_blank" href="https://www.usegalileo.ai/">
+            <div class="link-item-title">
+              Galileo
+            </div>
+            <div class="link-item-description">
+              <div class="link-item-tag">AI Design (UX)</div>
+              <small> https://www.usegalileo.ai/
+              </small>
+            </div>
+          </a>
+        </li>
+
+        <li class="link-item">
+          <a target="_blank" href="https://figma.com/">
+            <div class="link-item-title">
+              Figma
+            </div>
+            <div class="link-item-description">
+              <div class="link-item-tag">Design (UX)</div>
+              <small> https://figma.com/
+              </small>
+            </div>
+          </a>
+        </li>
+
+        <li class="link-item">
+          <a target="_blank" href="https://spline.design">
+            <div class="link-item-title">
+              Spline
+            </div>
+            <div class="link-item-description">
+              <div class="link-item-tag">Design (3D)</div>
+              <small> https://spline.design
+              </small>
+            </div>
+          </a>
+        </li>
+
+        <li class="link-item">
+          <a target="_blank" href="https://chat.openai.com/">
+            <div class="link-item-title">
+              ChatGPT
+            </div>
+            <div class="link-item-description">
+              <div class="link-item-tag">LLM</div>
+              <small> https://chat.openai.com/
+              </small>
+            </div>
+          </a>
+        </li>
       </ul>
-    </div>    
+    </div>
   </main>
-      
+
   </body>
-</html>
+
+  </html>

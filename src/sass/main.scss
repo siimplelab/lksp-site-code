@@ -17,3 +17,41 @@
 //     font-size: 13px;
 //   }
 // }
+#main {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+// * ITEM
+.link-item-group {
+  @apply flex flex-col space-y-4;
+}
+
+.link-item {
+  @apply inline-flex border-1 border-gray-300 p-6 rounded-lg;
+
+  a {
+    width: 100%;
+
+    &:hover {
+      .link-item-title {
+        @apply underline;
+      }
+    }
+  }
+}
+
+.link-item-title {
+  @apply text-blue-700 font-bold;
+
+}
+
+.link-item-description {
+  small {
+    @apply flex text-gray-500 text-xs;
+  }
+}
+
+.link-item-tag {
+  @apply inline-flex text-xs text-gray-700 mb-1;
+}
